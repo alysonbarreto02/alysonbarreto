@@ -23,6 +23,6 @@ export default createGlobalStyle`
 }
 
 body{
-    background-color: #2C2542;
+    background-color: #161616;
 }
 `
