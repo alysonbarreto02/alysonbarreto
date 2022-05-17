@@ -1,4 +1,4 @@
-import { Topo } from "./styles";
+import { Name, NavBar, Topo } from "./styles";
 
 
 export function Menu() {
@@ -6,17 +6,19 @@ export function Menu() {
 
         <div>
             <Topo>
-                <div className="name">
-                    <h1><span> Alyson</span> Kevin</h1>
-                </div>
-                <nav className="navBar">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About me</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </nav>
+                <Name>
+                    <h1><span>Alyson</span> Kevin</h1>
+                </Name>
+                <NavBar>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About me</a></li>
+                            <li><a href="">Skills</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                </NavBar>
             </Topo>
+            <hr />
         </div>
 
     )
