@@ -1,10 +1,23 @@
 import styled from "styled-components";
 
-export const Menu = styled.header`
-position: fixed;
+export const Topo = styled.header`
+    display: flex;
+    height: 30px;
+    width: 100%;
 
-width: 100%;
-height: 7rem;
+    .name{
+        span{
+            color: #C8DE4E;
+        }
+        color: white;
+        font-size: 25px;
+    }
 
-background: var(--black);
+    .navBar{
+        justify-content: space-between;
+    }
+`
+
+export const Name = styled.div`
+
 `
