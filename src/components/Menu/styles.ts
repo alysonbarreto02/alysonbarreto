@@ -4,15 +4,13 @@ export const Topo = styled.header`
     display: flex;
     height: 5rem;
     width: 100%;
-    margin-left: 19.5rem;
-    position: absolute;
 
-;
+    justify-content: center;
+    align-items: center;
 `
 export const Name = styled.div`
-    height: 5rem;
-    line-height: 5rem;
-    margin: 0 5rem;
+    margin-top: 7rem;
+    padding: 0 5rem;
 
     span{
         color: #C8DE4E;
@@ -20,21 +18,17 @@ export const Name = styled.div`
 
     h1{
         color: #F97355;
-        font-size: 40px;
+        font-size: 5rem;
     }
 `
 
 export const NavBar = styled.nav`
     ul{
-        font-size: 24px;
-
         display: flex;
-        height: 5rem;
-        line-height: 5rem;
+        margin-top: 5rem;
 
+        font-size: 24px;
         color: gray;
-
-
     }
     
     li{
@@ -50,13 +44,10 @@ export const NavBar = styled.nav`
 `
 export const NavBarTwo = styled.nav`
     ul{
-        font-size: 24px;
-
         display: flex;
-        //padding-left: 30rem;
-        height: 5rem;
-        line-height: 5rem;
-
+        margin-top: 5rem;
+        
+        font-size: 24px;
         color: gray;
     }
     

@@ -3,8 +3,6 @@ import { Name, NavBar, NavBarTwo, Topo } from "./styles";
 
 export function Menu() {
     return (
-
-        <div>
             <Topo>
                 <NavBar>
                     <ul>
@@ -24,7 +22,5 @@ export function Menu() {
                     </ul>
                 </NavBarTwo>
             </Topo>
-        </div>
-
     )
 }
