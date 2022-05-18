@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const BodyText = styled.section`
     display: flex;
 
-    width: 100%;
-    height: calc(1000px - 5rem);
+    width: 100vw;
+    height: 100vh;
     margin-top: 5rem;
 
     justify-content: center;
@@ -12,21 +12,26 @@ export const BodyText = styled.section`
 `
 export const Welcome = styled.div`
     display: flex;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background: #c8de4e;
+    width: 100vw;
 
 p{
-    font-size: 4rem;
-    line-height: 3rem;
-
+    margin-top: 20px;
+    
+    font-size: 2rem;
     font-family:'Roboto Mono', monospace;
-    color: white;
+    color: #616161;
+    word-spacing: 3rem;
 }
+`
+export const Alyson = styled.h2`
+margin: -13px 2rem 0 2rem; 
+font-weight: bold;
 
-h2{
-    color: #F97355;
-    font-size: 5rem;
-    span{
-        color: #C8DE4E;
-    }
-}
+font-family:'Roboto Mono', monospace;
+font-size: 50px;
+
+color: #616161;
 `

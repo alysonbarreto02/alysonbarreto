@@ -1,14 +1,14 @@
-import { BodyText, Welcome } from "./Style";
+import { Alyson, BodyText, Welcome } from "./Style";
 
-export function Home(){
-    return(
+export function Home() {
+    return (
         <BodyText>
             <Welcome>
                 <p>
-                    Hey! My name is 
+                    Hey! My name is
                 </p>
 
-                <h2>Alyson <span>Kevin</span></h2> 
+                <Alyson>Alyson <span>Kevin</span></Alyson>
 
                 <p>
                     your software developer.
