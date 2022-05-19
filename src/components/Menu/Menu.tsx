@@ -12,7 +12,7 @@ export function Menu() {
                 </NavBar>
 
                 <Name>
-                    <h1><span>Alyson</span> Kevin</h1>
+                    <h1><span>A</span>K</h1>
                 </Name>
 
                 <NavBarTwo>

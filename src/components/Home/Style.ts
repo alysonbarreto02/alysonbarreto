@@ -9,13 +9,14 @@ export const BodyText = styled.section`
 export const Welcome = styled.div`
     width: 50%;
     height: 100%;
-p{
-    margin-top:20rem;
+    
+    p{
+    margin-top: 12rem;
     margin-left: 20rem;
     line-height: 50px;
 
     color: #999999;
-    font-size: 50px;
+    font-size: 40px;
     font-family:'Roboto Mono', monospace;
 }
 `
@@ -25,6 +26,6 @@ font-size: 70px;
 `
 
 export const Vetor = styled.div`
-margin: 0%;
+margin: 0;
 `
 
