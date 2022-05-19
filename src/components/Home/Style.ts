@@ -1,37 +1,30 @@
 import styled from "styled-components";
 
+
 export const BodyText = styled.section`
+    width: 100%;
+    height: 100%;
     display: flex;
-
-    width: 100vw;
-    height: 100vh;
-    margin-top: 5rem;
-
-    justify-content: center;
-    align-items: center;
 `
 export const Welcome = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #c8de4e;
-    width: 100vw;
-
+    width: 50%;
+    height: 100%;
 p{
-    margin-top: 20px;
-    
-    font-size: 2rem;
+    margin-top:20rem;
+    margin-left: 20rem;
+    line-height: 50px;
+
+    color: #999999;
+    font-size: 50px;
     font-family:'Roboto Mono', monospace;
-    color: #616161;
-    word-spacing: 3rem;
 }
 `
 export const Alyson = styled.h2`
-margin: -13px 2rem 0 2rem; 
-font-weight: bold;
-
-font-family:'Roboto Mono', monospace;
-font-size: 50px;
-
-color: #616161;
+margin-top: 50px;
+font-size: 70px;
 `
+
+export const Vetor = styled.div`
+margin: 0%;
+`
+
