@@ -1,4 +1,5 @@
 import { Alyson, BodyText, Vetor, Welcome } from "./Style";
+import { BsBug } from 'react-icons/bs'
 
 export function Home() {
     return (
@@ -11,6 +12,7 @@ export function Home() {
                 </p>
             </Welcome>
         <Vetor>
+            <BsBug className="bug"/>
         {/* <img src={require('../../assets/images/Pc.png')} alt="logo"/> */}
         </Vetor>
 

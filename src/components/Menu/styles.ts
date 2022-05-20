@@ -17,7 +17,7 @@ export const Name = styled.div`
     }
 
     h1{
-        color: #F97355;
+        color: #FA8B00;
         font-size: 5rem;
     }
 `

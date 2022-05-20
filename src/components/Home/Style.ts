@@ -8,24 +8,38 @@ export const BodyText = styled.section`
 `
 export const Welcome = styled.div`
     width: 50%;
-    height: 100%;
+    height: 35rem;
     
     p{
-    margin-top: 12rem;
+    margin-top: 16rem;
     margin-left: 20rem;
-    line-height: 50px;
+    line-height: 20px;
 
-    color: #999999;
-    font-size: 40px;
+    color: #d3d3d3;
+    font-size: 30px;
     font-family:'Roboto Mono', monospace;
 }
 `
 export const Alyson = styled.h2`
 margin-top: 50px;
-font-size: 70px;
+font-size: 60px;
 `
 
 export const Vetor = styled.div`
-margin: 0;
+display: flex;
+width: 50%;
+height: 35rem;
+
+justify-content: center;
+align-items: center;
+
+color: #FA8B00;
+
+.bug{
+    margin-top: 8rem;
+
+    height: 300px;
+    width: 300px;
+}
 `
 
