@@ -7,13 +7,13 @@ export const BodyText = styled.section`
     display: flex;
 `
 export const Welcome = styled.div`
-    width: 50%;
-    height: 35rem;
+    width: 50vw;
+    height: 100vh;
     
     p{
-    margin-top: 16rem;
+    margin-top: 12rem;
     margin-left: 20rem;
-    line-height: 20px;
+    line-height: 40px;
 
     color: #d3d3d3;
     font-size: 30px;
@@ -22,13 +22,13 @@ export const Welcome = styled.div`
 `
 export const Alyson = styled.h2`
 margin-top: 50px;
-font-size: 60px;
+font-size: 50px;
 `
 
 export const Vetor = styled.div`
 display: flex;
-width: 50%;
-height: 35rem;
+width: 50vw;
+height: 100vh;
 
 justify-content: center;
 align-items: center;
@@ -36,8 +36,6 @@ align-items: center;
 color: #FA8B00;
 
 .bug{
-    margin-top: 8rem;
-
     height: 300px;
     width: 300px;
 }

@@ -1,5 +1,6 @@
 import Globalstyle from './assets/style/globalstyle';
-import { Home } from './components/Home/Home';
+import { AboutMe } from './components/Content/AboutMe/AboutMe';
+import { Home } from './components/Content/Home/Home';
 import { Menu } from './components/Menu/Menu';
 
 
@@ -9,6 +10,7 @@ function App() {
       <Globalstyle/>
       <Menu/>
       <Home/>
+      <AboutMe/>
     </>
   );
 }
