@@ -13,11 +13,11 @@ export const Name = styled.div`
     padding: 0 5rem;
 
     span{
-        color: #C8DE4E;
+        color:var(--pink)
     }
 
     h1{
-        color: #FA8B00;
+        color: var(--green);
         font-size: 5rem;
     }
 `

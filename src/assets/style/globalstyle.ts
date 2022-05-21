@@ -1,15 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 
-export default createGlobalStyle`
-.root {
-    --green-light: #C8DE4E;
-    --blue-500: #4AB5E0;
-    --blue-600: #25A6DB;
-    --white: #ffffff;
-    --black: #000;
-
-    --template: #2C2542;
-}
+export const GlobalStyle = createGlobalStyle`
+    :root{
+        --background: #282a36;
+        --background-second: #44475a;
+        
+        --pink: #ff79c6;
+        --purple: #bd93f9;
+        --green: #50fa7b;
+        --yellow: #f1fa8c;
+        
+        --text-body: #f8f8f2;
+    }
 
 *{
     box-sizing: border-box;
@@ -23,6 +25,6 @@ export default createGlobalStyle`
 }
 
 body{
-    background-color: #161616;
+    background-color: var(--background);
 }
 `
