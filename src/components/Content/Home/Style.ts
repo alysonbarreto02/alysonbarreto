@@ -42,7 +42,7 @@ export const Welcome = styled.div`
         width: 0;
     }
     to{
-        width: 800px;
+        width: 980px;
     }
 }
 
